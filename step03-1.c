@@ -1,9 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    printf("請輸入一個整數a的值:");
-    scanf("%d", &a);
-
-    printf("a的值是：%d\n",    a);
+    if(10>0) printf("10>0成立\n");
+    if(10<0) printf("10<0成立\n");
+    if(-3) printf("-3成立的嗎?\n");
+    if(-2) printf("-2成立的嗎?\n");
+    if(-1) printf("-1成立的嗎?\n");
+    if(0) printf("0成立的嗎?\n");
+    if(1) printf("1成立的嗎?\n");
+    if(2) printf("2成立的嗎?\n");
+    if(3) printf("3成立的嗎?\n");
 }
